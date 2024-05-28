@@ -116,7 +116,7 @@ public class AntrianBankGUI {
         frame.add(leftPanel, BorderLayout.WEST);
         frame.add(rightPanel, BorderLayout.CENTER);
 
-        frame.setLocationRelativeTo(null); // Set the main frame to be centered
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
 
@@ -132,7 +132,6 @@ public class AntrianBankGUI {
             JScrollPane scrollPane = new JScrollPane(outputArea);
             outputFrame.add(scrollPane, BorderLayout.CENTER);
 
-            // Set the output frame to be to the right of the main frame
             outputFrame.setLocation(frame.getX() + frame.getWidth(), frame.getY());
         }
     }
